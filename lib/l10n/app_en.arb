@@ -1,0 +1,12 @@
+{
+    "appTitle": "Interactive cookbook",
+    "@appTitle": {
+      "description": "Title of the app."
+    },
+
+    "appAbout": "My training Flutter app",
+    "@appAbout": {
+      "description": "Bottom toast message."
+    }
+    
+}
