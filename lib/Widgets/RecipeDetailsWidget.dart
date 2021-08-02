@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
+import 'StepsListView.dart';
+
 class RecipeDetailsWidget extends StatelessWidget {
   final RecipeName recipeName;
 
@@ -33,6 +35,7 @@ class RecipeDetailsWidget extends StatelessWidget {
                           CircularProgressIndicator(),
                       imageUrl: recipeName.image,
                       errorWidget: (context, url, error) => Icon(Icons.error))),
+              StepsListView(recipeName: recipeName),
             ],
           ),
         ),

@@ -22,8 +22,8 @@ class MyApp extends StatelessWidget {
       ],
       supportedLocales: [
         Locale('en', ''), // English, no country code
-        Locale('cs', ''), // Czech
-        Locale('de', ''), // German
+        //Locale('cs', ''), // Czech
+        //Locale('de', ''), // German
       ],
       theme: ThemeData(
         // This is the theme of your application.
