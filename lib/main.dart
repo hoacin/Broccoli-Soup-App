@@ -103,11 +103,6 @@ class _MyHomePageState extends State<MyHomePage> {
             Align(
                 alignment: Alignment.topCenter,
                 child: Image(image: AssetImage('Assets/Cooking.jpg'))),
-            /*Text(AppLocalizations.of(context)!.clickTime),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
-            ),*/
             RecipeListView(),
           ],
         ),
@@ -116,9 +111,9 @@ class _MyHomePageState extends State<MyHomePage> {
           onPressed: () {
             _showAboutSnack(context);
           },
-          tooltip: 'Increment',
+          tooltip: AppLocalizations.of(context)!.appAboutTooltip,
           child: Icon(Icons
-              .message)), // This trailing comma makes auto-formatting nicer for build methods.
+              .person)), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }

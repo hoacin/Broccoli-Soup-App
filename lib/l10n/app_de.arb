@@ -1,4 +1,6 @@
 {
     "appTitle": "Interaktives Kochbuch",
-    "appAbout": "Meine Trainings-Flutter-App."
+    "appAbout": "Meine Trainings-Flutter-App.",
+    "appAboutTooltip": "Uber app",
+    "ingredientsTooltip": "Zutaten"
 }

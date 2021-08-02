@@ -1,5 +1,7 @@
 {
     "appTitle": "Interaktivní kuchařka",
-    "appAbout": "Moje tréninková Flutter aplikace."
+    "appAbout": "Moje tréninková Flutter aplikace.",
+    "appAboutTooltip": "O aplikaci",
+    "ingredientsTooltip": "Ingredience"
     
 }

@@ -7,6 +7,15 @@
     "appAbout": "My training Flutter app",
     "@appAbout": {
       "description": "Bottom toast message."
-    }
+    },
+
+    "appAboutTooltip": "About app",
+    "@appAboutTooltip": {
+      "description": "Tooltip."
+    },
     
+    "ingredientsTooltip": "Shows ingredients",
+    "@ingredientsTooltip": {
+      "description": "Tooltip."
+    }
 }
