@@ -60,7 +60,7 @@ class StepsListView extends StatelessWidget {
               fontWeight: FontWeight.w500,
               fontSize: 20,
             )),
-        leading: Icon(Icons.work,
+        leading: Icon(Icons.arrow_downward,
             color: Colors.pink, size: 24.0, semanticLabel: 'Icon of food'),
         trailing: ClipRRect(
           borderRadius: BorderRadius.circular(24),
